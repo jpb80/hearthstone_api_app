@@ -1,0 +1,13 @@
+<table>
+{% for item in items %}
+<TR>
+   <TD class="id">{{item.id}}</TD>
+   <TD class="name">{{item.name}}</TD>
+   <TD class="health">{{item.health}}</TD>
+   <TD class="attack">{{item.attack}}</TD>
+   <TD class="mana cost">{{item.manaCost}}</TD>
+   <TD class="info">{{item.text}}</TD>
+   <TD class="image">{{item.image}}</TD>
+</TR>
+{% endfor %}
+</table>
