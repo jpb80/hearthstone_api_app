@@ -20,7 +20,7 @@ Returns json that is rendered into a template as tables.
 `docker build . -t hearthstone-api-app`
 
 ### Running container
-`docker run -it -d -p 8080:8080 --env CLIENT_ID=<clientid> --env CLIEND_SECRET=<secret> hearthstone-api-app`
+`docker run -it -d -p 8080:8080 --env CLIENT_ID=<clientid> --env CLIENT_SECRET=<secret> hearthstone-api-app`
 
 ### Environment variables
 Environment variables for hearthstone API clientId and clientSecret. 
@@ -28,5 +28,5 @@ Environment variables for hearthstone API clientId and clientSecret.
 *CLIENT_SECRET
 
 ## Running the application
-Make a get request to the api endpoint such as `curl localhost:8080/get/warlock`.
+Make a get request to the api endpoint such as `curl localhost:8080/get_mage_cards`.
 Api returns a json of stats. 
